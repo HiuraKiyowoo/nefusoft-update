@@ -1,14 +1,12 @@
 {
-  "versionCode": 20,
-  "versionName": "2.0",
+  "versionCode": 99,
+  "versionName": "2.1-test",
   "mandatory": false,
   "title": "Update Tersedia",
   "changelog": [
-    "Perbaikan daftar episode yang sebelumnya kosong",
-    "Judul anime tampil benar di halaman tonton",
-    "Kontrol player memakai bawaan ExoPlayer (lebih stabil)",
-    "Fullscreen tanpa memuat ulang video",
-    "Komentar asli dari server"
+    "TES dialog update",
+    "Kalau ini muncul, fitur jalan",
+    "Tekan NANTI buat skip"
   ],
   "apkUrl": "https://github.com/HiuraKiyowoo/nefusoft-update/releases/latest/download/nefusoft.apk",
   "sizeMb": 14.3,

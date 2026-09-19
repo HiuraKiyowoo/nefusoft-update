@@ -1,16 +1,17 @@
 {
-  "versionCode": 20,
-  "versionName": "2.0",
+  "versionCode": 22,
+  "versionName": "2.2",
   "mandatory": false,
   "title": "Update Tersedia",
   "changelog": [
+    "Section \"Lanjut Nonton\" kini memakai poster anime 9:16 (tidak terpotong lagi)",
     "Perbaikan daftar episode yang sebelumnya kosong",
     "Judul anime tampil benar di halaman tonton",
     "Kontrol player memakai bawaan ExoPlayer (lebih stabil)",
     "Fullscreen tanpa memuat ulang video",
     "Komentar asli dari server"
   ],
-  "apkUrl": "https://github.com/HiuraKiyowoo/nefusoft-update/releases/latest/download/nefusoft.apk",
-  "sizeMb": 14.3,
+  "apkUrl": "https://github.com/HiuraKiyowoo/nefusoft-update/releases/download/v2.1/app-debug.apk",
+  "sizeMb": 14.0,
   "publishedAt": "2026-09-19"
 }

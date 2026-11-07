@@ -1,0 +1,8 @@
+{
+  "_catatan": "Poster hero Nefusoft. Diambil aplikasi dari https://cdn.jsdelivr.net/gh/HiuraKiyowoo/nefusoft-update@main/hero/hero.json — ganti isi berkas ini, tidak perlu rilis APK baru.",
+  "_cara": "1) taruh gambar di folder hero/  2) isi byId (per id anime) atau byOrder (per urutan slide) dengan URL jsDelivr-nya",
+  "_contohUrl": "https://cdn.jsdelivr.net/gh/HiuraKiyowoo/nefusoft-update@main/hero/one_piece.webp",
+  "_spesifikasi": "16:9, ideal 1280x720, webp/jpg, < 300 KB",
+  "byId": {},
+  "byOrder": []
+}

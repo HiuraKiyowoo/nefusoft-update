@@ -22,3 +22,26 @@ Aplikasi membaca `hero.json` saat beranda dibuka. Urutan prioritas gambar hero:
 
 Id anime = bagian akhir URL-nya, misal `/anime/one-piece` → `one-piece`.
 Kalau JSON rusak atau CDN mati, aplikasi diam-diam memakai gambar API — tidak pernah kosong.
+
+## Sesudah push: segarkan cache jsDelivr
+
+jsDelivr menyimpan cache untuk ref `@main` sampai ±12 jam. Kalau poster baru
+belum muncul, paksa segarkan:
+
+```bash
+curl -s "https://purge.jsdelivr.net/gh/HiuraKiyowoo/nefusoft-update@main/hero/hero.json"
+curl -s "https://purge.jsdelivr.net/gh/HiuraKiyowoo/nefusoft-update@main/hero/slot_2.webp"
+```
+
+Alternatif instan: panggil lewat commit sha, mis.
+`https://cdn.jsdelivr.net/gh/HiuraKiyowoo/nefusoft-update@<sha-commit>/hero/slot_2.webp`
+
+## Yang sudah terpasang
+
+| berkas | isi |
+|---|---|
+| `slot_1.webp` | poster anti-judi "Sudah lah, JANGAN JUDI LAGI" (1280×720, 100 KB) |
+
+Menambah slide: taruh `slot_2.webp`, `slot_3.webp`, … lalu tambahkan URL-nya ke
+`byOrder` pada `hero.json`. Jumlah slide di beranda mengikuti jumlah isi
+`byOrder`.

@@ -1,17 +1,16 @@
 {
-  "versionCode": 23,
-  "versionName": "2.2",
+  "versionCode": 25,
+  "versionName": "2.4",
   "mandatory": false,
   "title": "Update Tersedia",
   "changelog": [
-    "Bookmark kini benar-benar tersimpan (ikon hati di layar detail)",
-    "Lanjut Ditonton & Riwayat Pencarian tidak lagi kosong",
-    "Tab bawah tidak lompat ke Beranda dari halaman Profile",
-    "Gambar pada Live Chat kini tampil",
-    "Scroll lebih mulus & transisi tidak patah/ngeblink",
-    "Ukuran APK jauh lebih kecil (R8 aktif)"
+    "Navbar kaca cair: latar direfraksi di tepi, ada dispersi warna tipis",
+    "Tahan lalu geser di navbar untuk pindah tab (sorotan ikut jari)",
+    "Pill menebal saat ditekan; label tab lain memudar",
+    "Jarak antar-section beranda dirapatkan",
+    "Poster hero bisa diganti dari CDN tanpa rilis APK"
   ],
-  "apkUrl": "https://github.com/HiuraKiyowoo/nefusoft-update/releases/download/v2.2/nefusoft-2.2.apk",
-  "sizeMb": 3.7,
-  "publishedAt": "2026-09-20"
+  "apkUrl": "https://github.com/HiuraKiyowoo/nefusoft-update/releases/download/v2.4/nefusoft-2.4.apk",
+  "sizeMb": 3.8,
+  "publishedAt": "2026-11-08"
 }
